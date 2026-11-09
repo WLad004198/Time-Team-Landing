@@ -1,6 +1,6 @@
 import { Image } from "../../General/Image/Image"
 import TimeTeamBusinessCardImage from "/src/assets/Images/time-team-logo.jpg"
-import Telegram_logo from '/src/assets/Images/Telegram_logo.jpg'
+import Telegram_logo from "/src/assets/Images/Telegram_logo.jpg"
 import { HeadingSecondary } from "../../General/Headings/Heading-secondary/Heading-secondary"
 import { Paragraph } from "../../General/Paragraph/Paragraph";
 
