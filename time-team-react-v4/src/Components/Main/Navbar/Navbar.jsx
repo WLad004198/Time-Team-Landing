@@ -1,6 +1,6 @@
-import { Link } from "../../General/Link/Link"
-import { FaBars } from "react-icons/fa"
-import { useRef } from "react"
+import { Link } from "../../General/Link/Link";
+import { FaBars } from "react-icons/fa";
+import { useRef } from "react";
 
 export function Navbar(){
   const navRef= useRef(null);
