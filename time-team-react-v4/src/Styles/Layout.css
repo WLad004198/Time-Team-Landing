@@ -1,0 +1,264 @@
+header{
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+header > .navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header > .nav-open-btn{
+  font-size: 4rem;
+  background-color: transparent;
+  border: none;
+}
+
+.business-card{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1rem;
+}
+
+
+.business-card-image-box{
+  width: 100%;
+}
+
+.business-card-info-box{
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.business-card-sm-tag{
+  width: 100%;
+  
+}
+
+.services-list-box{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.services-list{
+  grid-column: 1/5;
+  grid-row: 1/2;
+  width: 100%;
+}
+
+.members-list-box{
+  display: grid;
+  grid-template-columns:100%;
+}
+
+.member-card{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.member-image-box{
+  width: 100%;
+  height: 100%;
+}
+
+.member-name-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.member-image{
+  height: 100%;
+  width: 100%;
+}
+
+.member-name{
+  font-size: var(--font-size-heading-secondary);
+}
+
+.member-card-one .member-image-box-one{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.member-card-one .member-name-box-one{
+  grid-column: 2/5;
+  grid-row: 1/2;
+}
+
+.member-card-one .member-services-box-one{
+  grid-column: 1/5;
+  grid-row: 2/3;
+}
+
+.member-card-two .member-image-box-two{
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.member-card-two .member-name-box-two{
+  grid-column: 2/5;
+  grid-row: 3/4;
+}
+
+.member-card-two .member-services-box-two{
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+
+.member-card-three .member-image-box-three{
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+
+.member-card-three .member-name-box-three{
+  grid-column: 2/5;
+  grid-row: 5/6;
+}
+
+.member-card-three .member-services-box-three{
+  grid-column: 1/5;
+  grid-row: 6/7;
+}
+
+.member-card-four .member-image-box-four{
+  grid-column: 1/2;
+  grid-row: 7/8;
+}
+
+.member-card-four .member-name-box-four{
+  grid-column: 2/5;
+  grid-row: 7/8;
+}
+
+.member-card-four .member-services-box-four{
+  grid-column: 1/5;
+  grid-row: 8/9;
+}
+
+.member-card-five .member-image-box-five{
+  grid-column: 1/2;
+  grid-row: 9/10;
+}
+
+.member-card-five .member-name-box-five{
+  grid-column: 2/5;
+  grid-row: 9/10;
+}
+
+.member-card-five .member-services-box-five{
+  grid-column: 1/5;
+  grid-row: 10/11;
+}
+
+.member-card-six .member-image-box-six{
+  grid-column: 1/2;
+  grid-row: 11/12;
+}
+
+.member-card-six .member-name-box-six{
+  grid-column: 2/5;
+  grid-row: 11/12;
+}
+
+.member-card-six .member-services-box-six{
+  grid-column: 1/5;
+  grid-row: 12/13;
+}
+
+.member-card-seven .member-image-box-seven{
+  grid-column: 1/2;
+  grid-row: 13/14;
+}
+
+.member-card-seven .member-name-box-seven{
+  grid-column: 2/5;
+  grid-row: 13/14;
+}
+
+.member-card-seven .member-services-box-seven{
+  grid-column: 1/5;
+  grid-row: 14/15;
+}
+
+.member-card-eight .member-image-box-eight{
+  grid-column: 1/2;
+  grid-row: 15/16;
+}
+
+.member-card-eight .member-name-box-eight{
+  grid-column: 2/5;
+  grid-row: 15/16;
+}
+
+.member-card-eight .member-services-box-eight{
+  grid-column: 1/5;
+  grid-row: 16/17;
+}
+
+.member-card-nine .member-image-box-nine{
+  grid-column: 1/2;
+  grid-row: 17/18;
+}
+
+.member-card-nine .member-name-box-nine{
+  grid-column: 2/5;
+  grid-row: 17/18;
+}
+
+.member-card-nine .member-services-box-nine{
+  grid-column: 1/5;
+  grid-row: 18/19;
+}
+
+.member-card-ten .member-image-box-ten{
+  grid-column: 1/2;
+  grid-row: 19/20;
+}
+
+.member-card-ten .member-name-box-ten{
+  grid-column: 2/5;
+  grid-row: 19/20;
+}
+
+.member-card-ten .member-services-box-ten{
+  grid-column: 1/5;
+  grid-row: 20/21;
+}
+
+.member-card-eleven .member-image-box-eleven{
+  grid-column: 1/2;
+  grid-row: 21/22;
+}
+
+.member-card-eleven .member-name-box-eleven{
+  grid-column: 2/5;
+  grid-row: 21/22;
+}
+
+.member-card-eleven .member-services-box-eleven{
+  grid-column: 1/5;
+  grid-row: 22/23;
+}
+
+.member-card-twelve .member-image-box-twelve{
+  grid-column: 1/2;
+  grid-row: 23/24;
+}
+
+.member-card-twelve .member-name-box-twelve{
+  grid-column: 2/5;
+  grid-row: 23/24;
+}
+
+.member-card-twelve .member-services-box-twelve{
+  grid-column: 1/5;
+  grid-row: 24/25;
+}

@@ -1,0 +1,117 @@
+:root{
+  --element-background-color: whitesmoke;
+  --element-padding: 1rem;
+  --element-border-radius-primary: 1rem;
+  --element-border-radius-secondary: 0.5rem;
+  --font-size-heading-main: 10rem;
+  --font-size-heading-secondary: 5rem;
+  --font-size-text: 2.5rem;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: arial;
+}
+
+header{
+  background-color: var(--element-background-color);
+  padding: var(--element-padding);
+  border-radius: var(--element-border-radius-primary)
+}
+
+header > .nav-open-btn{
+  font-size: var(--font-size-text);
+  cursor: pointer;
+}
+
+.responsive-nav{
+  visibility: hidden;
+}
+
+.nav-link{
+  font-size: var(--font-size-text);
+  text-decoration: none;
+}
+
+.header-link:hover{
+  transform: scale(1.2);
+}
+
+.heading-main{
+  font-size: var(--font-size-heading-main);
+  text-align: center;
+}
+
+.heading-secondary{
+  font-size: var(--font-size-heading-secondary);
+  text-align: center;
+  margin-top:0px;
+}
+
+.business-card{
+  background-color: var(--element-background-color);
+  border-radius: var(--element-border-radius-primary);
+  padding: var(--element-padding);
+}
+
+.business-card-image{
+  width: 100%;
+  height: 100%;
+  border-radius: var(--element-border-radius-secondary);
+}
+
+.business-card-sm-tag{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 714px;
+}
+
+.business-card-paragraph{
+  font-size: var(--font-size-text);
+  text-align: center;
+}
+
+.business-card-sm-logo{
+  height: var(--font-size-text);
+}
+
+.business-card-sm-paragraph{
+  font-size: var(--font-size-text);
+}
+
+.services-list-box{
+  background-color: var(--element-background-color);
+  border-radius: var(--element-border-radius-primary);
+}
+
+.services-list{
+  font-size: var(--font-size-text);
+  white-space: pre-wrap;
+}
+
+.members-list-box{
+  background-color: var(--element-background-color);
+  padding: var(--element-padding);
+  border-radius: var(--element-border-radius-primary);
+}
+
+.member-image{
+  border-radius: var(--element-border-radius-secondary);
+}
+
+.member-services{
+  font-size: var(--font-size-text);
+  white-space: pre-line;
+  width: 100%;
+}
+
+.member-contacts-box{
+  background-color: var(--element-background-color);
+  border-radius: var(--element-border-radius-primary);
+  padding: var(--element-padding);
+}
+
+.member-contacts-box > .member-contacts{
+  font-size: var(--font-size-text);
+}

@@ -1,0 +1,313 @@
+@media screen and (max-width: 375px){
+  .html{
+    font-size: 62,5%;
+  }
+
+  .header-link{
+    font-size: 0.1rem;
+  }
+
+  .services-list{
+    white-space: pre-line;
+    width: 100%;
+  }
+
+  .member-services{
+    font-size: 2rem;
+    white-space: collapse;
+  }
+
+  .services-list-box , .services-list{
+    font-size: 2rem;
+  }
+
+  header > .nav-open-btn{
+    font-size: 2rem;
+  }
+
+  .member-contacts-box > .member-contacts{
+   white-space: pre-line;
+   font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 414px){
+  .nav-link{
+    font-size: 2rem;
+  }
+
+  .services-list-box{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .services-list-box .services-list{
+    white-space: pre-line;
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 428px){
+  .nav-link{
+    font-size: 2rem;
+  }
+
+  .services-list-box .services-list{
+    white-space: pre-line;
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width:480px){
+  .html{
+    font-size: 62.5%;
+  }
+
+  .header-box{
+    grid-gap: 0.5rem;
+  }
+
+  .header-link{
+    font-size: 1.5rem;
+  }
+  
+  .heading-main{
+    font-size: 4rem;
+  }
+
+  .heading-secondary{
+    font-size: 4rem
+  }
+
+  .member-services{
+    white-space: wrap;
+  }
+
+  .services-list-box{
+    row-gap: 1rem;
+  }
+
+  .members-list-box{
+    grid-template-columns: 100%;
+    row-gap: 4rem;
+  }
+
+ .member-card{
+  grid-template-columns: 100%;
+ }
+
+ .business-card{
+  grid-template-columns: 100%;
+ }
+
+ .business-card-info-box{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  gap: 2.5rem;
+ }
+
+ .business-card-paragraph{
+  font-size: 1.5rem;
+ }
+
+ .member-services{
+  font-size: 1.5rem;
+ }
+
+ .member-contacts{
+  font-size: 1rem;
+ }
+}
+
+@media screen and (max-width: 810px){
+  .html{
+    font-size: 62.5%;
+  }
+
+  .header-link{
+    font-size: 2rem;
+  }
+
+  .heading-main{
+    font-size: 4.5rem;
+  }
+
+  .business-card{
+    grid-template-columns: 1fr;
+  }
+
+  .business-card-paragraph{
+    font-size: 2rem;
+  }
+
+  .business-card-info-box{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    gap: 5rem;
+  }
+
+  .members-list-box{
+    grid-template-columns: 100%;
+  }
+
+  .member-card{
+    grid-template-columns: 1fr;
+  }
+
+   .member-card .member-image-box, .member-card .member-name-box, .member-card .member-services-box{
+    grid-column: 1/2;
+  }
+
+  .member-card .member-name-box-one{
+    grid-row: 1/2;
+  }
+
+  .member-card .member-image-box-one{
+    grid-row: 2/3;
+  }
+
+  .member-card .member-services-box-one{
+    grid-row: 3/4;
+  }
+
+  .member-card .member-name-box-two{
+    grid-row: 4/5;
+  }
+
+  .member-card .member-image-box-two{
+    grid-row: 5/6
+  }
+
+  .member-card .member-services-box-two{
+    grid-row: 6/7;
+  }
+
+  .member-card .member-name-box-three{
+    grid-row: 7/8
+  }
+
+  .member-card .member-image-box-three{
+    grid-row: 8/9;
+  }
+
+  .member-card .member-services-box-three{
+    grid-row: 9/10;
+  }
+
+  .member-card .member-name-box-four{
+    grid-row: 10/11;
+  }
+
+  .member-card .member-image-box-four{
+    grid-row: 11/12;
+  }
+
+  .member-card .member-services-box-four{
+    grid-row: 12/13;
+  }
+
+  .member-card .member-name-box-five{
+    grid-row: 13/14;
+  }
+
+  .member-card .member-image-box-five{
+    grid-row: 14/15;
+  }
+
+  .member-card .member-services-box-five{
+    grid-row: 15/16;
+  }
+
+  .member-card .member-name-box-six{
+    grid-row: 16/17;
+  }
+
+  .member-card .member-image-box-six{
+    grid-row: 17/18;
+  }
+
+  .member-card .member-services-box-six{
+    grid-row: 18/19;
+  }
+
+  .member-card .member-name-box-seven{
+    grid-row: 19/20;
+  }
+
+  .member-card .member-image-box-seven{
+    grid-row: 20/21;
+  }
+
+  .member-card .member-image-box-seven{
+    grid-row: 21/22;
+  }
+
+  .member-card .member-services-box-seven{
+    grid-row: 22/23;
+  }
+
+  .member-card .member-name-box-eight{
+    grid-row: 23/24;
+  }
+
+  .member-card .member-image-box-eight{
+    grid-row: 24/25;
+  }
+
+  .member-card .member-services-box-eight{
+    grid-row: 25/26;
+  }
+
+  .member-card .member-name-box-nine{
+    grid-row: 26/27;
+  }
+  
+  .member-card .member-image-box-nine{
+    grid-row: 27/28;
+  }
+
+  .member-card .member-services-box-nine{
+    grid-row: 28/29;
+  }
+
+  .member-card .member-name-box-ten{
+    grid-row: 29/30;
+  }
+
+  .member-card .member-image-box-ten{
+    grid-row: 30/31;
+  }
+
+  .member-card .member-services-box-ten{
+    grid-row: 31/32;
+  }
+
+  .member-card .member-name-box-eleven{
+    grid-row: 32/33;
+  }
+
+  .member-card .member-image-box-eleven{
+    grid-row: 33/34;
+  }
+
+  .member-card .member-services-box-eleven{
+    grid-row: 34/35;
+  }
+
+  .member-card .member-name-box-twelve{
+    grid-row: 35/36;
+  }
+
+  .member-card .member-image-box-twelve{
+    grid-row: 36/37;
+  }
+
+  .member-card .member-services-box-twelve{
+    grid-row: 37/38;
+  }
+
+  .member-contacts-box > .member-contacts{
+    font-size: 2rem;
+  }
+}
