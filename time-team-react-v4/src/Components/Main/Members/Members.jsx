@@ -1,7 +1,7 @@
 import { Image } from "../../General/Image/Image"
 import { HeadingSecondary } from "../../General/Headings/Heading-secondary/Heading-secondary"
 import { Paragraph } from "../../General/Paragraph/Paragraph"
-import memberImage from "/src/assets/images/dummy-profile-image.jpg"
+import memberImage from "/src/assets/Images/dummy-profile-image.jpg"
 export function Members(){
   const memberName = "Имя"
   const imageClassName = "member-image"
