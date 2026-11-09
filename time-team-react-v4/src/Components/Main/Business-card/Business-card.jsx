@@ -1,4 +1,5 @@
 import { Image } from "../../General/Image/Image"
+import TimeTeamBusinessCardImage from "time-team-react-v4/src/assets/Images/time-team-logo.jpg"
 import { HeadingSecondary } from "../../General/Headings/Heading-secondary/Heading-secondary"
 import { Paragraph } from "../../General/Paragraph/Paragraph";
 
@@ -7,7 +8,7 @@ export function BusinessCard(){
     <div className="business-card">
       <div className="business-card-image-box">
         <Image
-         src="/src/assets/Images/time-team-logo.jpg" 
+         src={TimeTeamBusinessCardImage}
          className="business-card-image"
          >
          </Image>
