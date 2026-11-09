@@ -1,5 +1,6 @@
 import { Image } from "../../General/Image/Image"
 import TimeTeamBusinessCardImage from "/src/assets/Images/time-team-logo.jpg"
+import Telegram_logo from '/src/assets/Images/Telegram_logo.jpg'
 import { HeadingSecondary } from "../../General/Headings/Heading-secondary/Heading-secondary"
 import { Paragraph } from "../../General/Paragraph/Paragraph";
 
@@ -24,7 +25,7 @@ export function BusinessCard(){
         className="business-card-paragraph">
         </Paragraph>
         <div className="business-card-sm-tag">
-          <Image src="/src/assets/Images/Telegram_logo.svg"
+          <Image src={Telegram_logo}
           className="business-card-sm-logo">
           </Image>
           <Paragraph
