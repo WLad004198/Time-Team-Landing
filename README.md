@@ -25,6 +25,7 @@ During the development of this project, I gained practical experience with:
 - **Responsive Web Design:** Creating layouts that adapt to different screen sizes.
 - **React Components:** Breaking down a user interface into smaller, reusable components.
 - **Props:** Passing data between components to make them more flexible and reusable.
+- **Hooks** Used useRef to toggle the navigation menu on/off
 
 This project helped me better understand the fundamentals of React and modern frontend development.
 
