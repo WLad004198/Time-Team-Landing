@@ -28,6 +28,8 @@ During the development of this project, I gained practical experience with:
 
 This project helped me better understand the fundamentals of React and modern frontend development.
 
+[Live Demo](https://time-team-landing-4fuh.vercel.app/)
+
 ## 💻 Getting Started
 
 1. Clone the repository:
